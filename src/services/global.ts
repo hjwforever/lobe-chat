@@ -2,7 +2,7 @@ import { GlobalServerConfig } from '@/types/settings';
 
 import { API_ENDPOINTS } from './_url';
 
-const VERSION_URL = 'https://registry.npmmirror.com/@lobehub/chat';
+const VERSION_URL = 'https://registry.npmmirror.com/@aruoxi/lobehub-chat';
 
 class GlobalService {
   /**

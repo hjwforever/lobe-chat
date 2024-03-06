@@ -32,7 +32,7 @@ export const DEFAULT_AGENT_CONFIG: LobeAgentConfig = {
   displayMode: 'chat',
   enableAutoCreateTopic: true,
   historyCount: 1,
-  model: 'gpt-3.5-turbo',
+  model: 'moonshot-v1-8k', // 'gpt-3.5-turbo',
   params: {
     frequency_penalty: 0,
     presence_penalty: 0,
@@ -40,7 +40,7 @@ export const DEFAULT_AGENT_CONFIG: LobeAgentConfig = {
     top_p: 1,
   },
   plugins: [],
-  provider: ModelProvider.OpenAI,
+  provider: ModelProvider.Moonshot, // ModelProvider.OpenAI
   systemRole: '',
   tts: DEFAUTT_AGENT_TTS_CONFIG,
 };
